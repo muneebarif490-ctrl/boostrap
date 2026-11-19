@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(160, 101, 90);
+    padding: 20px;
+    color: white;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+} 
+h1{
+    color: white;
+
+}
+ul{
+    display: flex;
+    gap : 25px ;
+}
+li{
+   list-style: none;
+}
+button {
+    background-color: #deb887;
+    color: white;
+    padding: 9px;
+    border-radius: 13px;
+    border-color: beige;
+    transition: 0.3s;
+    margin-right: 30px;
+    
+   
+}
+button:hover{
+    background-color: #d88e2e;
+    color: black;
+    transform: translateY(-3px);
+
+}
